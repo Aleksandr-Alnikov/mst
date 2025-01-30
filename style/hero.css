@@ -1,0 +1,102 @@
+.hero {
+    background-color: #000;
+    font-family: Prata, sans-serif;
+    padding-top: 106px;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    min-height: 903px;
+}
+
+.hero__title {
+    font-size: 70px;
+    max-width: 500px;
+    margin-bottom: 50px;
+
+}
+
+.hero__text {
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+.hero__images {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hero__list {
+    margin-bottom: 40px;
+}
+
+.hero__item {
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero__item:last-child {
+    margin-bottom: 0;
+}
+
+.hero__item:before {
+    content: '';
+    background-image: url("../img/tick.svg");
+    width: 39px;
+    height: 37px;
+}
+
+.hero__item span {
+    font-size: 30px;
+}
+
+.hero__btn {
+    background-color: #fff;
+    padding: 40px 50px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+@media (max-width: 1440px) {
+    .hero__container {
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .hero__item span {
+        font-size: 20px;
+    }
+
+    .hero__images {
+        position: initial;
+    }
+
+    .hero__title {
+        font-size: 32px;
+    }
+
+    .hero {
+        padding: 0;
+    }
+
+    .hero__btn {
+        padding: 15px 80px;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero {
+        padding: 0;
+    }
+
+    .hero__btn {
+        padding: 15px 80px;
+    }
+}

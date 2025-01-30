@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Prata;
+    font-weight: 400;
+    src: local('Prata'),
+    url("../fonts/prata-v20-cyrillic_latin-regular.woff2") format('woff2');
+    font-display: swap;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: .04em;
+    color: #fff;
+    background-color: #383636;
+}
+
+main {
+    overflow: hidden
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    background-color: inherit;
+    border: 0;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1600px) {
+    .container {
+        padding: 0 50px;
+    }
+}
