@@ -20,6 +20,11 @@
 
 .header__navigation-link {
     font-style: italic;
+    transition: color .3s ease-in-out;
+}
+
+.header__navigation-link:hover {
+    color: #A4907D;
 }
 
 @media (max-width: 1600px) {

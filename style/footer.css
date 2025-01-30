@@ -61,6 +61,11 @@
     border-radius: 6px;
     font-style: italic;
     margin-bottom: 23px;
+    transition: background-color .3s ease-in-out;
+}
+
+.footer__btn:hover {
+    background-color: #A4907D;
 }
 
 @media (max-width: 1600px) {
